@@ -1,0 +1,32 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+
+    body {
+        background-image: url(../Resources/images/pattern-background-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 93%);
+    }
+
+    .main-card {
+        position: relative;
+        margin: 10% auto;
+        width: 90%;
+        height: 85vh;
+        
+            
+            
+    }
+    .card-header { 
+        height: 30%;
+        width: 95%%;
+        background-image: url(../Resources/images/illustration-hero.svg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+}
+
